@@ -1,5 +1,5 @@
-# Minimal LAMP Stack
-Minimal LAMP Stack provide Ubuntu 18.04, Apache, PHP7.1, MySQL and phpMyAdmin in a flexible box for Vagrant.
+# LAMP-NodeJS
+LAMP-NodeJS provide Ubuntu 18.04, Apache, PHP7.1, MySQL, phpMyAdmin and NodeJS in a flexible box for Vagrant.
 
 ## Prerequisites
 
@@ -9,11 +9,11 @@ Be sure to install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Vag
 
 #### From command line
 ```
-$ git clone https://github.com/LeonardoPuccio/Minimal-LAMP-Stack my-workspace
+$ git clone https://github.com/LeonardoPuccio/LAMP-NodeJS my-workspace
 ```
 
 #### GUI
-Simply [download](https://github.com/LeonardoPuccio/Minimal-LAMP-Stack/archive/master.zip) and extract Minimal-LAMP-Stack-master.zip where do you want.
+Simply [download](https://github.com/LeonardoPuccio/LAMP-NodeJS/archive/master.zip) and extract LAMP-NodeJS-master.zip where do you want.
 
 ## How to use
 
@@ -57,6 +57,8 @@ Remind you need ssh tunneling.*
 - PHP7.1 (7.1.17)
 - MySQL (5.7.22-0)
 - phpMyAdmin
+- Node.js LTS (8.x)
+- npm included with Node.js LTS ([more info](https://nodejs.org/en/download/ "NodeJS"))
 
 ## Default Credential:  
 
@@ -80,3 +82,4 @@ Remind you need ssh tunneling.*
  - [What is VirtualBox?](https://www.virtualbox.org/manual/ch01.html "VirtualBox Doc")
  - [What is Vagrant?](https://www.vagrantup.com/intro/index.html "Vagrant Doc")
  - [Why VirtualBox?](https://www.vagrantup.com/docs/providers/default.html "Vagrant Doc")
+ - [What is NodeJS?](https://nodejs.org/en/ "NodeJS Home")
